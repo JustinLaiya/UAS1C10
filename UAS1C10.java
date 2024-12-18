@@ -85,10 +85,10 @@ public class UAS1C10 {
                                 if (totalSkor10[i] == maxSkor10 && skor10[i][1] > maxLevel210) {
                                     maxLevel210 = skor10[i][1];
                                     indexLevel210 = i;
-                                }
+                                } 
                             }
 
-                            System.out.println("Selamat kepada Tim " + namaTim10[indexLevel210] + " yang telah memenangkan kompetisi!");
+                            System.out.println("Selamat kepada Tim berakhir seri" + namaTim10[indexLevel210] + " tim terbaik yaitu justin!");
                         } else {
                             System.out.println("Selamat kepada Tim " + namaTim10[indexJuara10] + " yang telah memenangkan kompetisi!");
                         }
